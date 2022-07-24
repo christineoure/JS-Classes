@@ -17,7 +17,7 @@ class KioskCalc{
         this.quantity = quantity
         this.fruitPriceList = {"orange":30, "mango":15, "avocado":40}
         this.getTotalCost = function(){
-
+ 
             if (this.fruitPriceList[this.fruit]===undefined){
                 return `${this.fruit} is not available`
             }
